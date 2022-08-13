@@ -81,8 +81,6 @@ public class Equation {
         this.signSymbol = this.SignSymbols.get(sign);
     }
     
-    // getters and setters
-
     public long getId() {
         return id;
     }
