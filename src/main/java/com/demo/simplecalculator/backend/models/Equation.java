@@ -30,9 +30,7 @@ public class Equation {
             .orElse(new AbstractMap.SimpleEntry<Sign, String>(null,null))
             .getKey();
     }
-    
-    // attributes
-    
+        
     @Id
     @GeneratedValue
     private long id;
