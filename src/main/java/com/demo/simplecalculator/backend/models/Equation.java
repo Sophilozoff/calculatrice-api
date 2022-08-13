@@ -13,9 +13,7 @@ import org.springframework.util.StringUtils;
 public class Equation {
     
     public enum Sign {PLUS, MINUS, MULTIPLICATION, DIVISION};
-    
-    // map for casting between char symbol representation and enum value
-    
+        
     final public static HashMap<Sign, String> SignSymbols = new HashMap() {{
         put(Sign.PLUS, "+");
         put(Sign.MINUS, "-");
